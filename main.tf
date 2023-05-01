@@ -64,7 +64,6 @@ resource "azurerm_mssql_database" "serverless_db" {
         email_addresses      = []
         retention_days       = 0
         state                = "Disabled"
-        # use_server_default   = "Disabled"
     }
 
     tags = {
